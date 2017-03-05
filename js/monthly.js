@@ -23,7 +23,7 @@ Monthly 2.2.0 by Kevin Thornbloom is licensed under a Creative Commons Attributi
 				stylePast: false,
 				target: "",
 				useIsoDateFormat: false,
-				weekStart: 0,	// Sunday
+				weekStart: 1,	// Monday
 				xmlUrl: ""
 			};
 
