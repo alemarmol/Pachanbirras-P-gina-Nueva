@@ -384,14 +384,7 @@ Monthly 2.2.0 by Kevin Thornbloom is licensed under a Creative Commons Attributi
 		function formatTime(value) {
 			var timeSplit = value.split(":");
 			var hour = parseInt(timeSplit[0], 10);
-			var period = "AM";
-			if(hour > 12) {
-				hour -= 12;
-				period = "PM";
-			} else if(hour === 0) {
-				hour = 12;
-			}
-			return hour + ":" + String(timeSplit[1]) + " " + period;
+			return hour + ":" + String(timeSplit[1]);
 		}
 
 		function setNextMonth() {
