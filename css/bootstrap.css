@@ -73,6 +73,15 @@ img {
   vertical-align: middle;
   border: 0;
   -ms-interpolation-mode: bicubic;
+  margin-left: 0%;
+}
+
+#contenidoContacto {
+  margin-left: 80px;
+}
+
+.pdf {
+  margin-left: 20%;
 }
 
 #map_canvas img {
@@ -199,7 +208,7 @@ a:hover {
 }
 
 .row {
-  margin-left: -90px;
+  margin-left: -118px;
   *zoom: 1;
 }
 

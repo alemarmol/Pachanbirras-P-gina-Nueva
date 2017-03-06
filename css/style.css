@@ -37,6 +37,10 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 }
 
+.center {
+	text-align: center;
+}
+
 .title {
 	border-bottom: 3px double #f6f6f6;
 	margin-bottom: 10px;
@@ -112,8 +116,8 @@ header {
 }
 
 #downloads {
-	width: 40%;
-	margin-left: 30%;
+	width: 50%;
+	margin-left: 22%;
 
 }
 
@@ -583,7 +587,7 @@ html[xmlns] .slides {display: block;}
 	float: left;
 }
 
-/* About
+/* Resultados
 =================================================================== */
 .team-name {
 	padding: 15px 0;
