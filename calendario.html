@@ -68,9 +68,7 @@
 			color:#fff;
 			line-height: 1.4em;
 		}
-		body {
-			padding:10vh 0;
-		}
+		
 		h1 {
 			text-align: center;
 			font-size: 77px;
@@ -143,6 +141,31 @@
 		@media (max-width: 600px) {
 			.resize {
 				display: none;
+			}
+		}
+
+		@media only screen and (max-width: 767px) {
+			
+			header {
+				min-height: 64px;
+			}
+
+			.logo img {
+				margin: 7px 0 3% 0;
+				width: 13%;
+			}
+			
+		}
+
+		@media only screen and (max-width: 479px) {
+			
+			header {
+				min-height: 64px;
+			}
+			
+			.logo img {
+				margin: 7px 0 3% 0;
+				width: 20%;
 			}
 		}
 	</style>
@@ -306,7 +329,8 @@
 	</div>
 	<!-- end: Footer -->
 <!-- JS ======================================================= -->
-<script type="text/javascript" src="js/jquery.js"></script>
+<script src="js/jquery-1.8.2.js"></script>
+<script src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/monthly.js"></script>
 <script type="text/javascript">
 	$(window).load( function() {

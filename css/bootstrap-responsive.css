@@ -789,8 +789,11 @@
   }
 
   .logo.span3 {
-height: 15px;
+height: 45px;
   }
+
+  
+
   .container-fluid {
     padding: 0;
   }
