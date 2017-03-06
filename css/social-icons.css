@@ -425,12 +425,19 @@
 /* Social Icons - circle big
 =================================================================== */
 .social-grid {
-	margin: 0px 0 0 0;
+	margin: 0px 0 0 37%;
 	padding: 0;
 	list-style: none;
 	display: block;
 	text-align: center;
 	width: 100%;
+}
+
+@media (max-width: 767px) {
+.social-grid{
+	margin: 0px 0 0 0%;
+	padding: 0;
+	}
 }
 
 .social-grid li {
